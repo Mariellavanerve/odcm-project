@@ -150,7 +150,7 @@ This dataset has not been used for any tasks before, as this dataset is speciall
 
 ### 5.2	Is there a repository that links to any or all papers or systems that use the dataset? If so, please provide a link or other access point.
 
-There is a repository that gives access to all documents that are related to the dataset or needed to work with and get an understanding of it. The repository is publically available and can be found via the following link: ---
+There is a repository that gives access to all documents that are related to this project. The repository is publically available and can be found via the following link: *https://github.com/Mariellavanerve/odcm-project*
 
 ### 5.3	What (other) tasks could the dataset be used for?
 
