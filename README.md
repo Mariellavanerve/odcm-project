@@ -1,7 +1,7 @@
 # Online Data Collection & Management - Spring 2023
 
-*Content: Product Materials & Price in Fast Fashion Industry - Documentation on Scraping the H&M Website
-*Adapted from: Gebru, Morgenstern, Vecchione, Vaughan, Wallach, Daumeé, and Crawford. (2018). Datasheets for Datasets.
+*Content: Product Materials & Price in Fast Fashion Industry - Documentation on Scraping the H&M Website*
+*Adapted from: Gebru, Morgenstern, Vecchione, Vaughan, Wallach, Daumeé, and Crawford. (2018). Datasheets for Datasets.*
 
 # 1.Motivation
 ## 1.1	For what purpose was the dataset created? Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description. 
@@ -166,14 +166,14 @@ This data has been collected to provide a source for research that would like to
 
 ## References
 
-*Safdie, S., & Gendre, I. (2022). All you need to know about fast fashion. Greenly. Retrieved February 27, 2023, from https://greenly.earth/en-us/blog/ecology-news/all-you-need-to-know-about-fast-fashion 
+*Safdie, S., & Gendre, I. (2022). All you need to know about fast fashion. Greenly. Retrieved February 27, 2023, from https://greenly.earth/en-us/blog/ecology-news/all-you-need-to-know-about-fast-fashion*
 
-*Brightly. (2022, August 2) The most popular fast fashion brands, ranked for conscious consumers.  Brightly. Retrieved February 22, 2023, from https://brightly.eco/blog/fast-fashion-brands-sustainability 
+*Brightly. (2022, August 2) The most popular fast fashion brands, ranked for conscious consumers.  Brightly. Retrieved February 22, 2023, from https://brightly.eco/blog/fast-fashion-brands-sustainability *
 
-*Igini, M. (2023, February 17). 5 fast-fashion brands called out for greenwashing. Earth.Org. Retrieved February 27, 2023, from https://earth.org/fast-fashion-brands-greenwashing/ 
+*Igini, M. (2023, February 17). 5 fast-fashion brands called out for greenwashing. Earth.Org. Retrieved February 27, 2023, from https://earth.org/fast-fashion-brands-greenwashing/ *
 
-*Wanderlust. (2021, December 20). Looking at true cost of sustainable clothing. Wanderlust. Retrieved February 27, 2023, from https://wanderlust.com/journal/looking-at-true-cost-of-sustainable-clothing/#:~:text=The%20fabrics%20are%20more%20expensive&text=%E2%80%9CThe%20prices%20of%20sustainable%20fabrics,to%20more%20commonly%20used%20fabrics. 
+*Wanderlust. (2021, December 20). Looking at true cost of sustainable clothing. Wanderlust. Retrieved February 27, 2023, from https://wanderlust.com/journal/looking-at-true-cost-of-sustainable-clothing/#:~:text=The%20fabrics%20are%20more%20expensive&text=%E2%80%9CThe%20prices%20of%20sustainable%20fabrics,to%20more%20commonly%20used%20fabrics.* 
 
-*Cross, R. (2022, September 7). Fast fashion for men: A lesser known evil. Impakter. Retrieved February 27, 2023, from https://impakter.com/fast-fashion-for-men/#:~:text=Most%20consumers%20of%20fast%20fashion,bigger%20market%20than%20men%27s%20fashion 
+*Cross, R. (2022, September 7). Fast fashion for men: A lesser known evil. Impakter. Retrieved February 27, 2023, from https://impakter.com/fast-fashion-for-men/#:~:text=Most%20consumers%20of%20fast%20fashion,bigger%20market%20than%20men%27s%20fashion *
 
 ## Appendix
