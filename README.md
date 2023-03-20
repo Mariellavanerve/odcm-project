@@ -1,6 +1,7 @@
 # Online Data Collection & Management - Spring 2023
 
 *Content: Product Materials & Price in Fast Fashion Industry - Documentation on Scraping the H&M Website*
+*Prepared by: Team 8*
 *Adapted from: Gebru, Morgenstern, Vecchione, Vaughan, Wallach, Daumeé, and Crawford. (2018). Datasheets for Datasets.*
 
 # 1.Motivation
