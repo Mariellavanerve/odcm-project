@@ -23,7 +23,7 @@ Inside Airbnb provided the information needed for this research project. To anal
 
 In order to conduct this study, we examined data beginning five days before New Year's Eve 2022 (December 26th) and ending five days after New Year's Eve 2022 (January 5th). To compare the impact of New Year's Eve with other, "regular" days, we made a dummy for New Year's Eve.
 
-### Variables used in the study
+### Variables used in the research project
 
 | **Variable**  | **Description**                                         | **Data**        |
 | ------------- | --------------------------------------------------------| ----------------|
