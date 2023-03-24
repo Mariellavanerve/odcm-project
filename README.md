@@ -2,10 +2,18 @@
 
 Welcome to our research project!
 
-(![H M](https://user-images.githubusercontent.com/122876103/227515026-5cec6d76-bfcd-4543-b317-50ca25e93799.jpeg))
+![H M](https://user-images.githubusercontent.com/122876103/227541985-caf87b5a-f285-42e6-9d1f-511fcee6d18d.jpeg)
 
 ## Motivation
-...
+The fashion industry is the third-largest manufacturing sector in the world (Papasolomou, 2022). This trend towards fast fashion not only revolutionized the way clothing was produced and consumed, but also had significant economic and environmental impacts on the industry and society as a whole. Since fast fashion is inexpensive, it promotes unnecessary, excessive consumption (Safdie & Gendre, 2022). As a result, it contributes a devastating impact on the planet (Segran, 2021; Brightly, 2022). Sustainable development and the environment suffer because of the rapid fashion business (Niinimäki, 2020). Furthermore, fast fashion makes use of unsustainable materials which further impact the environment negatively. In fact, one-third of microplastics in the ocean is from the materials used to produce fast fashion (Safdie & Gendre, 2022). 
+
+As consumers have become more aware of the negative impact that unsustainable product materials can have on the environment, there has been a growing trend towards sustainability and eco-friendliness in the fashion industry. In response, many fashion companies have started to invest in more sustainable and environmentally-friendly production methods and materials, in order to reduce their environmental footprint and meet the changing demands of their customers (Mandaric et al., 2022). 
+
+Despite the public statements of these biggest fast fashion retail companies, there are still some questions in mind about their sustainability campaigns, and whether they are partaking in greenwashing practices (Igini, 2022). Another dimension worth looking into is the prices of these fast fashion brands. The prices of sustainable fabrics are, on average, two and a half to four times more expensive in comparison to more commonly used fabrics (Wanderlust, 2021). Since fast fashion brands still operate at low and affordable prices, it raises the question about their sustainability. 
+
+This study opted to focus on collecting data on the product materials & price of H&M products. By collecting this data researchers will be able to have information on one of the leading fast fashion brands. This data collection will focus on only women’s products since most consumers of fast fashion are women and generally, women’s fashion is a bigger market than men’s fashion (Cross, 2022). With the collected data, researchers can look into whether the products are made from sustainable materials or do research on the correlation between price and product material.
+
+To collect this data, multiple data sources and extraction methods have been considered. Ten well-known fast fashion brands, like for example H&M, Zara, and Uniqlo, are browsed through to explore the universe of potential web sources. These fast fashion brands were obtained by using Google Trends and searching on Google for ‘Fast fashion brands’. H&M has begun broadcasting and focussing on more sustainable practices and has a lot of products to scrape compared to the other fast fashion brands. For that reason, this research project is focusing on the Dutch website of H&M. H&M’s website can be considered a dynamic website since the product quantity and prices on the website fluctuate, such as during sales events. It is also crucial to include the date of scraping into the dataset. The researchers can also investigate the trend over time in the future. 
 
 ### Research Question
 *How can we collect product information about H&M products?*
@@ -77,7 +85,7 @@ Please follow the installation guides on http://tilburgsciencehub.com/. :
 The scripts and files might be executed in the following order:
 
 1.	Python webscraping code: ../../src/collection/HM_products.ipynb
-2.	Clean the data: ../../src/reporting/HM_products.R
+2.	Clean the data in R: ../../src/reporting/HM_products.R
 
 ## More resources
 * [H&M](https://www2.hm.com/nl_nl/index.html)
