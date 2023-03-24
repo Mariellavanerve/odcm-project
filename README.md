@@ -84,11 +84,7 @@ The directory structure is as follow:
 
 ```
 
-
-The main aim of this to have a basic structure, which can be easily adjusted to use in an actual project.  In this example project, the following is done: 
-1. Download and prepare data
-2. Run some analysis
-3. Present results in a final pdf generated
+The main aim of this to have a basic structure, which can be easily adjusted to use in an actual project.  
 
 ## Dependencies
 Please follow the installation guides on http://tilburgsciencehub.com/. :
@@ -102,11 +98,11 @@ It is suggested to use the make file to execute the code. Please adhere to the i
 1.	Fork this repository
 2.	Open your command line/terminal and run:
 ```
-git clone https://github.com/{your username}/Airbnb-new-years-eve.git
+git clone https://github.com/{your username}/odcm-project
 ```
 3.	Set your working directory to:
 ```
-Airbnb-new-years-eve
+odcm-project
 ```
 4.	First, type ‘make -n’ in the terminal. R will then demonstrate everything it will run:
 ```
@@ -127,7 +123,7 @@ Alternatively, the scripts and files might be executed in the following order:
 2.	Clean the data: ../../src/reporting/HM_products.R
 
 ## More resources
-* H&M (https://www2.hm.com/nl_nl/index.html)
+* [H&M](https://www2.hm.com/nl_nl/index.html)
 
 ## About
 
