@@ -69,8 +69,6 @@ The directory structure is as follow:
 |       ├── HM_products.ipynb
 |   ├── reporting
 |       ├── HM_products.R
-|       ├── makefile
-|   ├── clean-up.R
 ├── docs
 |   ├── H&M_Report
 |   ├── screenshot.pdf      
@@ -79,8 +77,7 @@ The directory structure is as follow:
 |   ├── HM_products.json
 ├── .gitignore
 ├── Install packages.R
-├── README.md
-└── makefile
+└── README.md
 
 ```
 
@@ -88,36 +85,11 @@ The main aim of this to have a basic structure, which can be easily adjusted to 
 
 ## Dependencies
 Please follow the installation guides on http://tilburgsciencehub.com/. :
-
+- Python. [Installation guides](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/python/)
 - R. [Installation guides](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/r/)
-- Make. [Installation guides](https://tilburgsciencehub.com/building-blocks/configure-your-computer/automation-and-workflows/make/)
 
 ## Running instructions
-
-It is suggested to use the make file to execute the code. Please adhere to the instructions below:
-1.	Fork this repository
-2.	Open your command line/terminal and run:
-```
-git clone https://github.com/{your username}/odcm-project
-```
-3.	Set your working directory to:
-```
-odcm-project
-```
-4.	First, type ‘make -n’ in the terminal. R will then demonstrate everything it will run:
-```
-make -n
-```
-5.	Run make.  All code will be executed by make. If necessary, R will make sure the right packages are installed. Windows users will need to install Make in order for the main makefile to run. Make will be installed automatically for Mac and Linux OS users. After running make, all output will be produced. The following command can be used to run make after installing Make:
-```
-make
-```
-6.	Execute the following code in the command line/terminal to clean the data of any raw and unnecessary data files produced during the pipeline:
-```
-make clean
-```
-
-Alternatively, the scripts and files might be executed in the following order:
+The scripts and files might be executed in the following order:
 
 1.	Python webscraping code: ../../src/collection/HM_products.ipynb
 2.	Clean the data: ../../src/reporting/HM_products.R
@@ -137,6 +109,4 @@ This repository was created as a part of the Online Data Collection and Manageme
 
 
 ## Notes
-* Tested under Linux Mint (should work in any linux distro, as well as on Windows and Mac) 
-* IMPORTANT: In `makefile`, when using `\` to split code into multiple lines, no space should follow `\`. Otherwise Gnu make aborts with error 193. 
 * Many possible improvements remain. Comments and contributions are welcome!
