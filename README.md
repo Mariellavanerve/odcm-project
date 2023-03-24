@@ -1,4 +1,4 @@
-# Product Materials & Price in the Fast Fashion Industry: Scraping the H&M website ; NOT FINISHED YET
+# Product Materials & Price in the Fast Fashion Industry: Scraping the H&M website 
 
 Welcome to our research project!
 
