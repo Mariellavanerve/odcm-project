@@ -1,8 +1,8 @@
-# Airbnb New Year's Eve 
+# Product Materials & Price in the Fast Fashion Industry: Scraping the H&M website
 
 Welcome to our research project!
 
-![image](https://user-images.githubusercontent.com/123902060/220652672-82bcdd9e-0f1a-4cfe-bdeb-f8dfcbed94f1.png)
+(![H M](https://user-images.githubusercontent.com/122876103/227515026-5cec6d76-bfcd-4543-b317-50ca25e93799.jpeg))
 
 ## Motivation
 “May the new year take you to places you have never been before”
@@ -14,7 +14,7 @@ This study aims to analyze the effects of one of the biggest holidays on Airbnb 
 Furthermore we took into account the size/population and costliness of the cities in our selection to ensure they did not influence the results. For the holiday, we considered the events that provided data for multiple cities before, during and after the event. 
 
 ### Research Question
-*What is the effect of New Year’s eve on Airbnb listings in Capital cities in Europe?*
+*How can we collect product information about H&M products?*
 
 ## Method and Results
 
@@ -23,17 +23,19 @@ Inside Airbnb provided the information needed for this research project. To anal
 
 In order to conduct this study, we examined data beginning five days before New Year's Eve 2022 (December 26th) and ending five days after New Year's Eve 2022 (January 5th). To compare the impact of New Year's Eve with other, "regular" days, we made a dummy for New Year's Eve.
 
-![Schermafbeelding 2023-03-16 om 10 29 14](https://user-images.githubusercontent.com/122876103/225574072-b0c7ef9a-4902-49b4-b79b-b41120d44531.png)
-
 ### Variables used in the study
 
-| **Variable**  | **Description**                                                                       | **Data** |
-| ------------- | ------------------------------------------------------------------------------------- | -------- |
-| price         | The listing price of an Airbnb per night in dollars                                   | numeric  |
-| booked        | Dummy variable: whether the accomodation is not booked (0) or it is booked (1)        | numeric  |
-| newyearseve   | Dummy variable: whether it is not New Year's Eve (0) or it is (1)                     | numeric  |
-| city          | The city of the Airbnb listing (London, Paris, Amsterdam or Rome)                     | character|
-
+| **Variable**  | **Description**                                         | **Data**        |
+| ------------- | --------------------------------------------------------| ----------------|
+| Title         | The name of the product.                                | Unprocessed text|
+| Price         | The price of the product.                               | Unprocessed text|
+| Color         | The color of the product.                               | Unprocessed text|
+| Product_id    | The id of the product.                                  | Unprocessed text|
+| Product URL   | The url of the product.                                 | Unprocessed text|
+| Buitenlaag    | The outside material of the product.                    | Unprocessed text|
+| Material      | The material of the product.                            | Unprocessed text|
+| New Arrival   | The product is a new arrival item.                      | Unprocessed text|
+| Timestamp     | The date and time when scraping events have occurred.   | Unprocessed text|
 
 
 To build a new dataset, the listing- and calendar datasets of all the cities, retrieved from insideairbnb, are combined. This new dataset is cleaned and it is checked for relevant elements before analysis. These sets enable analysis for every listing for every specific day, allowing for price comparisons between dates. To supplement the calendar dataset with additional data, the listings dataset will be combined with it and this will be saved in a file with the name complete_data.csv. Moreover, the data per city will be saved seperately in a file with the name complete_data_cityname.csv. 
