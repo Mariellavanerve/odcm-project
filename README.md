@@ -210,4 +210,4 @@ This data has been collected to provide a source for research that would like to
 
 ## Appendix
 
-###A.1 Data Source Comparison Table
+### *A.1 Data Source Comparison Table*
