@@ -16,15 +16,12 @@ Furthermore we took into account the size/population and costliness of the citie
 ### Research Question
 *How can we collect product information about H&M products?*
 
-## Method and Results
+## Method & relevance for collecting the data
 
 ### Method
-Inside Airbnb provided the information needed for this research project. To analyze the effects of prices of Airbnb accommodations during a New Year's Eve in capital cities in Europe, we will use a linear regression analysis since we are exploring the relationship between a metric dependent variable and a metric independent variables. In addition, we also want to observe to what extent different capital citites in Europe have an effect on the main relationship of New Year's Eve and Airbnb price and Airbnb bookings. Moreover, to analyze the effects of the Airbnb bookings during New Year's Eve in capital cities in Europe, we will use a logistic regression analysis. A logistic regression is performed here, as we set dependent variable "booked" as dummy variable. The analysis will be done in RStudio, since this program allows us for preparing and analyzing the data.
+For the course Online Data Collection & Management, our team scraped data from the Dutch website of H&M. The mechanism used to collect the data from H&M’s website is a semi-manually programmed web scraper. The web scraper is programmed in a Jupyter Notebook with Python language, and used a combination of Selenium and BeautifulSoup. BeautifulSoup has been used to collect the product URLs from the product overview pages. A code python with BeautifulSoup code has been used to counter the number of articles in the page URL and to make a list of the page URLs up to the last page of the 9,972 products. Meanwhile, Selenium is used to scrape the product information on product pages and open boxes of further information.
 
-In order to conduct this study, we examined data beginning five days before New Year's Eve 2022 (December 26th) and ending five days after New Year's Eve 2022 (January 5th). To compare the impact of New Year's Eve with other, "regular" days, we made a dummy for New Year's Eve.
-
-### Variables used in the research project
-
+The data is acquired by scraping H&M’s women all items pages. All acquired data was directly observable on the H&M’s website. As far as www2.hm.com/nl_nl is concerned, we scraped approximately 79.3% of the women's items that were available from 20/03/2023 until 23/03/2023 from the H&M’s ‘view all’ section for our dataset. Our reason to acquire this sample is that H&M has thousands of products and the most popular products being women's clothing. Regarding the data collection, H&M’s “view all” section was scraped once because 7,904 items are enough to answer research questions on product material and/or price. Furthermore, it is unlikely that the products' composition of a particular material will change. If this does change, the existing product will probably be dropped and replaced by a new product. Lastly, there is little chance that the price of the product will change in a short time. To give an overview, we scraped the following variables: 
 | **Variable**  | **Description**                                         | **Data**        |
 | ------------- | --------------------------------------------------------| ----------------|
 | Title         | The name of the product.                                | Unprocessed text|
@@ -38,7 +35,9 @@ In order to conduct this study, we examined data beginning five days before New 
 | Timestamp     | The date and time when scraping events have occurred.   | Unprocessed text|
 
 
-To build a new dataset, the listing- and calendar datasets of all the cities, retrieved from insideairbnb, are combined. This new dataset is cleaned and it is checked for relevant elements before analysis. These sets enable analysis for every listing for every specific day, allowing for price comparisons between dates. To supplement the calendar dataset with additional data, the listings dataset will be combined with it and this will be saved in a file with the name complete_data.csv. Moreover, the data per city will be saved seperately in a file with the name complete_data_cityname.csv. 
+The dataset contains observations captured from the 20th of March 2023 until the 23rd of March 2023. The scraping has been done only once, considering that price and product material will not change in a short span of time. 
+Four different devices have been used during the scraping period to collect the data. The first device scraped for approximately 64 hours. The second device for about 48 hours. The third and fourth devices scraped for a shorter period of time. The third one had scraped product information for about 28 hours. Lastly, the fourth device had been used for scraping for approximately 10 hours. Each device could scrape about 100 products in an hour. However, due to the use of multiple devices, it was not possible to guarantee the exclusion of duplicates. At the end, there were roughly 5,000 scraped duplicates. When the data was cleaned, these duplicates were removed. 
+
 
 ### Relevance
 
@@ -50,9 +49,6 @@ This research project gives valuable insights in the prices and availablity of A
 
 The results from the linear regression show a P-value of <0.01 for both the complete model and the different cities separate. Therefore, with a significance of 0.05, the H0 can be rejected. Therefore, we can state that there is a significant relationship between New Year’s Eve and prices of Airbnb listings. The estimate of New Year's Eve is positive for the complete datasets and for the cities seperate. This means that we can concluded that prices will be higher during New Year's Eve. Moreover, it is striking that the prices of Airbnbs in Paris, London, and Rome are comparable. On the other hand, prices in Amsterdam are significantly higher in the same timeperiod.
 
-**Bookings**: H1: New Year’s Eve influences the amount of booked Airbnbs. 
-
-The results from the logistic regression show a P-value <0.01 for both the complete model and the different cities seperate. Therefore, with a significance of 0.05, the null hypothesis can be rejected. By examining the exponents, we discovered that the impact across Paris, London, and Amsterdam is very similar, but they are all very different from Rome. The likelihood of an Airbnb being booked on New Year's Eve in Amsterdam increases by 0.692, in Paris increases by 0.451 and in London increases by 0.470. While these odds increase by 1.029 in Rome respectively. This demonstrates that the likelihood of booking an Airbnb on New Year’s Eve is the highest in Rome. 
 
 ## Conclusion
 
