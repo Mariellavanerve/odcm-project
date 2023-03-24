@@ -55,6 +55,27 @@ HM_products$price <- gsub('[€]', '', HM_products$price)
 HM_products$price <- gsub(",", ".", HM_products$price)
 HM_products$price <- as.numeric(HM_products$price)
 
+# Adding column for 'special labels'
+HM_products <- HM_products %>% 
+  mutate(speciallabel= newarrival)
+
+HM_products$speciallabel <- gsub("New Arrival", "No Special Label", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("No New Arrival", "No Special Label", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("WoolNo Special Label", "Wool", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("SilkWool", "Silk & Wool", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("SilkNo Special Label", "Silk", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("Premium SelectionNo Special Label", "Premium Selection", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("Organic CottonNo Special Label", "Organic Cotton", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("CottonNo Special Label", "Cotton", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("DenimOrganic Cotton", "Denim & Organic Cotton", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("DenimOrganic CottonNo Special Label", "Denim & Organic Cotton", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("H&M Studio CollectionNo Special Label", "H&M Studio Collection", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("LaceOrganic Cotton", "Lace & Cotton", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("LinenNo Special Label", "Linen", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("Merino WoolWool", "Merino Wool & Wool", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("LeatherNo Special Label", "Leather", HM_products$speciallabel)
+HM_products$speciallabel <- gsub("LeatherNo Special Label", "Leather", HM_products$speciallabel)
+
 # Make a dummy of new arrival, where 1 means the product is a new arrival and a 0 means otherwise
 HM_products <- HM_products %>% 
   mutate(newarrival_dum = newarrival)
@@ -122,7 +143,7 @@ HM_products$newarrival <- gsub("Merino No New Arrival", "No New Arrival", HM_pro
 
 
 # Change the order of columns
-col_order <- c("title", "price", "color", "product_id", "url", "buitenlaag", "material", "newarrival",
+col_order <- c("title", "price", "color", "product_id", "url", "buitenlaag", "material", "speciallabel", "newarrival",
                "newarrival_dum", "timestamp")
 HM_products <- HM_products[, col_order]
 
