@@ -1,4 +1,4 @@
-# Product Materials & Price in the Fast Fashion Industry: Scraping the H&M website
+# Product Materials & Price in the Fast Fashion Industry: Scraping the H&M website ; NOT FINISHED YET
 
 Welcome to our research project!
 
@@ -42,13 +42,6 @@ Four different devices have been used during the scraping period to collect the 
 ### Relevance
 
 This research project gives valuable insights in the prices and availablity of Airbnb's with New Year's Eve compared between multiple capital cities in Europe. For customers of Airbnb, this research gives them insights into the prices of an Airbnb with New Year's eve and the availability. Based on the results, predictions can be made for the next year.
-
-### Results
-
-**Price**: H1: New Year’s Eve influences the prices of Airbnb listings. 
-
-The results from the linear regression show a P-value of <0.01 for both the complete model and the different cities separate. Therefore, with a significance of 0.05, the H0 can be rejected. Therefore, we can state that there is a significant relationship between New Year’s Eve and prices of Airbnb listings. The estimate of New Year's Eve is positive for the complete datasets and for the cities seperate. This means that we can concluded that prices will be higher during New Year's Eve. Moreover, it is striking that the prices of Airbnbs in Paris, London, and Rome are comparable. On the other hand, prices in Amsterdam are significantly higher in the same timeperiod.
-
 
 ## Conclusion
 
