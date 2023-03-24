@@ -186,28 +186,28 @@ This data has been collected to provide a source for research that would like to
 
 ## References
 
-*Brightly. (2022, August 2) The most popular fast fashion brands, ranked for conscious consumers.  Brightly. Retrieved February 22, 2023, from https://brightly.eco/blog/fast-fashion-brands-sustainability*
+  *Brightly. (2022, August 2) The most popular fast fashion brands, ranked for conscious consumers.  Brightly. Retrieved February 22, 2023, from https://brightly.eco/blog/fast-fashion-brands-sustainability*
 
-*Cross, R. (2022, September 7). Fast fashion for men: A lesser known evil. Impakter. Retrieved February 27, 2023, from https://impakter.com/fast-fashion-for-men/#:~:text=Most%20consumers%20of%20fast%20fashion,bigger%20market%20than%20men%27s%20fashion*
+  *Cross, R. (2022, September 7). Fast fashion for men: A lesser known evil. Impakter. Retrieved February 27, 2023, from https://impakter.com/fast-fashion-for-men/#:~:text=Most%20consumers%20of%20fast%20fashion,bigger%20market%20than%20men%27s%20fashion*
 
-*Good on You. (2022, February 2). How ethical is H&M? Retrieved March 23, from https://goodonyou.eco/how-ethical-is-hm/*
+ *Good on You. (2022, February 2). How ethical is H&M? Retrieved March 23, from https://goodonyou.eco/how-ethical-is-hm/*
 
-*Good on You. (2021, November 3).How ethical is New Look? Retrieved March 23, from  https://goodonyou.eco/how-ethical-is-new-look/*
+  *Good on You. (2021, November 3).How ethical is New Look? Retrieved March 23, from  https://goodonyou.eco/how-ethical-is-new-look/*
 
-*Good on You. (2021, March 10). How ethical is Forever21? Retrieved March 23, from https://goodonyou.eco/how-ethical-is-forever-21/*
+  *Good on You. (2021, March 10). How ethical is Forever21? Retrieved March 23, from https://goodonyou.eco/how-ethical-is-forever-21/*
 
-*Igini, M. (2023, February 17). 5 fast-fashion brands called out for greenwashing. Earth.Org. Retrieved February 27, 2023, from https://earth.org/fast-fashion-brands-greenwashing/*
+  *Igini, M. (2023, February 17). 5 fast-fashion brands called out for greenwashing. Earth.Org. Retrieved February 27, 2023, from https://earth.org/fast-fashion-brands-greenwashing/*
 
-*Mandaric, D., Hunjet, A., & Vuković, D. (2022). The Impact of Fashion Brand Sustainability on Consumer Purchasing Decisions. Journal of Risk and Financial Management, 15(4), 176. https://doi.org/10.3390/jrfm15040176*
+  *Mandaric, D., Hunjet, A., & Vuković, D. (2022). The Impact of Fashion Brand Sustainability on Consumer Purchasing Decisions. Journal of Risk and Financial Management, 15(4), 176. https://doi.org/10.3390/jrfm15040176*
 
-*Niinimäki, K., Peters, G., Bontempi, E., Perry, P., Rissanen, T., & Gwilt, A. (2020). The environmental price of fast fashion. Nature Reviews Earth & Environment, 1(4), 189–200. https://doi.org/10.1038/s43017-020-0039-9*
+  *Niinimäki, K., Peters, G., Bontempi, E., Perry, P., Rissanen, T., & Gwilt, A. (2020). The environmental price of fast fashion. Nature Reviews Earth & Environment, 1(4), 189–200. https://doi.org/10.1038/s43017-020-0039-9*
 
-*Papasolomou, I., Melanthiou, Y., & Tsamouridis, A. (2022). The fast fashion vs environment debate: Consumers’ level of awareness, feelings, and behaviour towards sustainability within the fast-fashion sector. Journal of Marketing Communications, 1–19. https://doi.org/10.1080/13527266.2022.2154059*
+  *Papasolomou, I., Melanthiou, Y., & Tsamouridis, A. (2022). The fast fashion vs environment debate: Consumers’ level of awareness, feelings, and behaviour towards sustainability within the fast-fashion sector. Journal of Marketing Communications, 1–19. https://doi.org/10.1080/13527266.2022.2154059*
 
-*Safdie, S., & Gendre, I. (2022). All you need to know about fast fashion. Greenly. Retrieved February 27, 2023, from https://greenly.earth/en-us/blog/ecology-news/all-you-need-to-know-about-fast-fashion*
+  *Safdie, S., & Gendre, I. (2022). All you need to know about fast fashion. Greenly. Retrieved February 27, 2023, from https://greenly.earth/en-us/blog/ecology-news/all-you-need-to-know-about-fast-fashion*
 
-*Wanderlust. (2021, December 20). Looking at true cost of sustainable clothing. Wanderlust. Retrieved February 27, 2023, from https://wanderlust.com/journal/looking-at-true-cost-of-sustainable-clothing/#:~:text=The%20fabrics%20are%20more%20expensive&text=%E2%80%9CThe%20prices%20of%20sustainable%20fabrics,to%20more%20commonly%20used%20fabrics.* 
+  *Wanderlust. (2021, December 20). Looking at true cost of sustainable clothing. Wanderlust. Retrieved February 27, 2023, from https://wanderlust.com/journal/looking-at-true-cost-of-sustainable-clothing/#:~:text=The%20fabrics%20are%20more%20expensive&text=%E2%80%9CThe%20prices%20of%20sustainable%20fabrics,to%20more%20commonly%20used%20fabrics.* 
 
 ## Appendix
 
-###*A.1 Data Source Comparison Table*
+###A.1 Data Source Comparison Table
